@@ -46,14 +46,15 @@ body {
     transform: scale(0.9);
 }
 @media (max-width: 600px) {
+    .btn-container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
     .btn {
         height: 85px;
         width: 85px;
-        margin: 1rem;
+        margin: 0.5rem;
         border: 6px solid black;
-    }
-
-    .btn-container {
-        flex-wrap: wrap;
     }
 }
